@@ -1,0 +1,133 @@
+@widthScale: 750px / 100vw; // 设计图 宽度比例参照
+@heightScale: 1334px / 100vh; // 设计图 高度比例参照
+@font-face {
+    font-family: AkrobatBloack;
+    src: url('~@/assets/font/Akrobat-Black.otf');
+}
+@font-face {
+    font-family: SourceRegular;
+    src: url('~@/assets/font/SOURCEHANSANSCN-REGULAR.OTF');
+}
+.flex {
+    display: -webkit-flex;
+    display: flex;
+}
+.font_akb {
+	font-family: AkrobatBloack;
+}
+// 关闭按钮
+.closeBtn {
+    width: 80 / @widthScale;
+    height: 80 / @widthScale;
+}
+// 多行字体超出省略, 传递行数
+.overflow_ellipsis_multiLine(@line) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @line;
+    overflow: hidden;
+}
+// text-outer-order
+.text_outer_order {
+    text-shadow: 0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0px 0 black,
+                0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0px 0 black,
+                0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0px 0 black,
+                0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0.57px 0 black,
+                0.57px -0.57px 0 black,
+                -0.57px -0.57px 0 black,
+                -0.57px 0.57px 0 black,
+                0.57px 0px 0 black,
+                0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                -0.57px 0px 0 black,
+                0px 0.57px 0 black,
+                0px -0.57px 0 black,
+                0px -0.57px 0 black,
+                0px 0.57px 0 black,
+                0px 0.57px 0 black,
+                0px -0.57px 0 black,
+                0px -0.57px 0 black,
+                0px 0.57px 0 black,
+                0px 0.57px 0 black,
+                0px -0.57px 0 black,
+                0px -0.57px 0 black,
+                0px 0.57px 0 black,
+                0px 0.57px 0 black,
+                0px -0.57px 0 black,
+                0px -0.57px 0 black,
+                0px 0.57px 0 black,
+                0px 0px 0 black,
+                0px 0px 0 black,
+                0px 0px 0 black,
+                0px 0px 0 black, 
+                0 0 0 black;
+}

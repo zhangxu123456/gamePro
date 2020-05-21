@@ -1,0 +1,132 @@
+{"frames": {
+
+"bg_img_sjhc.png":
+{
+	"frame": {"x":16,"y":540,"w":667,"h":581},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":667,"h":581},
+	"sourceSize": {"w":667,"h":581}
+},
+"bg_img_title.png":
+{
+	"frame": {"x":290,"y":272,"w":380,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":92},
+	"sourceSize": {"w":380,"h":190}
+},
+"bird_img_huo.png":
+{
+	"frame": {"x":420,"y":116,"w":130,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":140},
+	"sourceSize": {"w":130,"h":140}
+},
+"bird_img_huo_sketch.png":
+{
+	"frame": {"x":527,"y":6,"w":95,"h":101},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":101},
+	"sourceSize": {"w":94,"h":101}
+},
+"bird_img_jin.png":
+{
+	"frame": {"x":555,"y":131,"w":140,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":123},
+	"sourceSize": {"w":140,"h":123}
+},
+"bird_img_jin_sketch.png":
+{
+	"frame": {"x":187,"y":16,"w":104,"h":91},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":91},
+	"sourceSize": {"w":104,"h":91}
+},
+"bird_img_mu.png":
+{
+	"frame": {"x":282,"y":116,"w":130,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":138},
+	"sourceSize": {"w":130,"h":138}
+},
+"bird_img_mu_sketch.png":
+{
+	"frame": {"x":411,"y":0,"w":102,"h":112},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":112},
+	"sourceSize": {"w":102,"h":112}
+},
+"bird_img_shui.png":
+{
+	"frame": {"x":140,"y":123,"w":140,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":126},
+	"sourceSize": {"w":140,"h":126}
+},
+"bird_img_shui_sketch.png":
+{
+	"frame": {"x":75,"y":9,"w":111,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":98},
+	"sourceSize": {"w":111,"h":98}
+},
+"bird_img_tu.png":
+{
+	"frame": {"x":0,"y":118,"w":139,"h":134},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":139,"h":134},
+	"sourceSize": {"w":139,"h":134}
+},
+"bird_img_tu_sketch.png":
+{
+	"frame": {"x":296,"y":19,"w":112,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":72},
+	"sourceSize": {"w":112,"h":72}
+},
+"btn_close.png":
+{
+	"frame": {"x":3,"y":7,"w":62,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":60},
+	"sourceSize": {"w":62,"h":60}
+},
+"btn_start.png":
+{
+	"frame": {"x":14,"y":274,"w":250,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":244},
+	"sourceSize": {"w":250,"h":244}
+},
+"btn_start_center.png":
+{
+	"frame": {"x":630,"y":3,"w":113,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":115},
+	"sourceSize": {"w":113,"h":115}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fivefiveopen.png",
+	"format": "RGBA8888",
+	"size": {"w":750,"h":1183},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1c9feab3fede4298111a988e552646ae:e0a1181c2fb194f09c2c16e679ce9678:04b7ba0c35795c790870be387a18a3ce$"
+}
+}
