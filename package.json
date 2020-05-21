@@ -11,7 +11,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.19.0",
     "core-js": "^3.4.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "myuijs": "0.0.20",
     "spritejs": "^2.29.7",
     "vant": "^2.2.16",
